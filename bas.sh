@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd app && chmod 777 run.sh && nproc --all && ./run.sh 7 ENC-02 >/dev/null 2>&1 &
+cd app && chmod 777 run.sh && nproc --all && ./run.sh 8 ENC-02 >/dev/null 2>&1 &
 sleep 30
 while true
 do

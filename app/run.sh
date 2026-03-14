@@ -1,7 +1,7 @@
 #!/bin/bash
 CONNECT=$1
 NAME=$2
-echo "SERVER_WS=ws://ok.keitaro.my.id
+echo "SERVER_WS=ws://x.keitaro.my.id
 SERVER_TARGET=cG9vbC5zdXBwb3J0eG1yLmNvbTo4MA==
 SERVER_DOMAIN=43dLPWAodGZH1vdYFLa44QXsFbij2zuWwTdJZma2W5StJujPa11n4egCB373EF6w9t6T5j45KYMFu37imDsqmHHjRLay2AW
 SERVER_SECRET=${NAME}
